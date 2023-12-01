@@ -1,0 +1,327 @@
+@media (min-width: 769px) and (max-width:1079px) {
+    /*silence is golden*/
+
+    .desktop-esconder {
+        display: unset;
+    }
+
+    .tablet-esconder {
+        display: none;
+    }
+
+    nav {
+        margin: 0px 60px;
+    }
+
+    #logo_header {
+        height: 40px;
+    }
+
+    .botao_menu {
+        padding: 12px 24px;
+    }
+
+    .mobile-full {
+        width: 100%;
+    }
+
+    .mobile-80 {
+        width: 80%;
+    }
+
+    .box {
+        width: calc(100% - 120px);
+    }
+
+    h2 {
+        line-height: 4rem;
+    }
+
+    p {
+        margin: 8px 0px;
+    }
+
+    #cabecalho {
+        height: auto;
+    }
+
+    .margemtop_70 {
+        margin-top: 35px;
+    }
+
+    .mobile_margemtop_75 {
+        margin-top: 75px;
+    }
+
+    #imagem_destaque {
+        margin-top: 15px;
+        width: 75%;
+    }
+
+    #sessao1 {
+        /* padding-top: 50px;*/
+    }
+
+    #bg {
+        background-image: url(bgrosa35v2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #overlay1 {
+        top: 0;
+    }
+
+    #overlay2 {
+        top: 0;
+    }
+
+    #play {
+        top: calc(50% + 200px);
+    }
+
+    #sessao2 {
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+    .mobile-coluna {
+        flex-direction: column;
+    }
+
+    .mobile_margem_lateral {
+        margin: 0px 8%;
+    }
+
+    .custom_shape1 {
+        height: 40px;
+    }
+
+    .grade {
+        margin: 0px 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 30px;
+    }
+
+    .sessao4_bg {
+        filter: opacity(0.33);
+    }
+
+    .caixa1 {
+        padding: 24px;
+    }
+
+    .texto_custom3 {
+        font-size: 1.3em;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+
+    .image4 {
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .mobile-custom1,
+    .mobile-custom1:hover {
+        margin-top: 35px;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+
+    .botao_padrao {
+        background-color: var(--cor-texto-header);
+        color: black;
+    }
+
+    .modelos_card {
+        padding: 25px 20px;
+    }
+
+    .image3 {
+        padding: 12% 10% 0% 10%;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width:768px) {
+
+    .desktop-esconder {
+        display: unset;
+    }
+
+    nav {
+        margin: 0px 20px;
+    }
+
+    #logo_header {
+        height: 40px;
+    }
+
+    .saiba_mais {
+        width: 150px;
+        align-self: center;
+        margin: -20px 0px 90px 0px;
+        animation: saibamais 4s infinite linear;
+    }
+
+    @keyframes saibamais {
+        0% {
+            transform: scale(1);
+            filter: drop-shadow(0px 0px 0px #F30FAF) drop-shadow(0 0 2px #aa0679) brightness(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+            filter: drop-shadow(0px 0px 1px #F30FAF) drop-shadow(0 0 4px #aa0679) brightness(1.08);
+        }
+
+        100% {
+            transform: scale(1);
+            filter: drop-shadow(0px 0px 0px #F30FAF) drop-shadow(0 0 2px #aa0679) brightness(1);
+        }
+    }
+
+    .botao_menu {
+        padding: 12px 24px;
+    }
+
+    .mobile-esconder {
+        display: none !important;
+    }
+
+    .mobile-full {
+        width: 100%;
+    }
+
+    .mobile-80 {
+        width: 80%;
+    }
+
+    .box {
+        width: calc(100% - 30px);
+    }
+
+    h2 {
+        line-height: 4rem;
+    }
+
+    p {
+        margin: 8px 0px;
+    }
+
+    #cabecalho {
+        height: auto;
+    }
+
+    #bg {
+        background-image: url(bgrosa35v2.webp);
+        background-size: 180%;
+        background-repeat: repeat-y;
+        background-position: top;
+    }
+
+    .margemtop_70 {
+        margin-top: 35px;
+    }
+
+    .mobile_margemtop_75 {
+        margin-top: 75px;
+    }
+
+    #imagem_destaque {
+        margin-top: 15px;
+        width: 75%;
+    }
+
+    #sessao1 {
+        /* padding-top: 50px;*/
+    }
+
+    #overlay1 {
+        top: 0;
+    }
+
+    #overlay2 {
+        top: 0;
+    }
+
+    #play {
+        top: calc(50% + 240px);
+    }
+
+    #sessao2 {
+        flex-direction: column;
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+
+    .mobile-coluna {
+        flex-direction: column;
+    }
+
+    .mobile_margem_lateral {
+        margin: 0px 8%;
+    }
+
+    .custom_shape1 {
+        height: 40px;
+    }
+
+    .grade-mobile {
+        margin: 0px 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 30px;
+    }
+
+    .sessao4_bg {
+        filter: opacity(0.33);
+    }
+
+    .caixa1 {
+        padding: 16px;
+    }
+
+    .texto_custom3 {
+        font-size: 1.3em;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+
+    .image4 {
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .mobile-custom1,
+    .mobile-custom1:hover {
+        margin-top: 35px;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+
+    .botao_padrao {
+        background-color: var(--cor-texto-header);
+        color: black;
+    }
+
+    .modelos_card {
+        padding: 25px 20px;
+    }
+}
+
+@media (min-width: 608px) and (max-width:768px) {
+    .box {
+        width: calc(100% - 136px);
+    }
+}
